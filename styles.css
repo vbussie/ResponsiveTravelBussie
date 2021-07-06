@@ -1,3 +1,7 @@
+/*Author: Vanessa Bussie
+    Project: Responsive Travel
+    Date: 07/05/2021*/
+
 @media only screen and (max-width: 600px)
   {
     body
@@ -284,7 +288,7 @@
               height: 200px;
               width: 300px;
             }
-      
+
       .contactlink
       {
         display: block;
