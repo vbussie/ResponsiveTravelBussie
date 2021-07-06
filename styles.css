@@ -16,7 +16,34 @@
     .seal, .flag, .topnav{
       display: none;
     }
-    .images
+    .image1
+    {
+      display: block;
+      border: 1px solid #ffff66;
+      margin-left: auto;
+      margin-right: auto;
+      height: 200px;
+      width: 250px;
+    }
+    .image2
+    {
+      display: block;
+      border: 1px solid #ffff66;
+      margin-left: auto;
+      margin-right: auto;
+      height: 200px;
+      width: 250px;
+    }
+    .image3
+    {
+      display: block;
+      border: 1px solid #ffff66;
+      margin-left: auto;
+      margin-right: auto;
+      height: 200px;
+      width: 250px;
+    }
+    .image4
     {
       display: block;
       border: 1px solid #ffff66;
@@ -99,15 +126,40 @@
       color: white;
     }
 
-   .images
+   .image1
     {
-      /*display: block;*/
+      display: block;
+      margin-left: 10px;
       border: 1px solid #ffff66;
-      margin-left: auto;
-      margin-right: auto;
       height: 200px;
       width: 300px;
     }
+    .image2
+     {
+       display: block;
+       border: 1px solid #ffff66;
+       margin-left: 10px;
+       height: 200px;
+       width: 300px;
+     }
+     .image3
+      {
+        display: block;
+        margin-left: 10px;
+        border: 1px solid #ffff66;
+        height: 200px;
+        width: 300px;
+      }
+      .image4
+       {
+         display: block;
+         margin-left: 10px;
+         border: 1px solid #ffff66;
+         margin-right: 25px;
+         height: 200px;
+         width: 300px;
+       }
+
     .contactlink
     {
       display: block;
@@ -138,9 +190,6 @@
       margin-right: auto;
       padding-top: 10px;
       padding-bottom: 20px;
-    }
-    .container{
-    display: block;
     }
 
 @media only screen and (min-width: 800px)
@@ -202,15 +251,40 @@
         color: white;
       }
 
-     .images
-      {
-        display: inline-block;
-        border: 1px solid #ffff66;
-        margin-left: auto;
-        margin-right: auto;
-        height: 200px;
-        width: 300px;
-      }
+        .image1
+         {
+           display: inline-block;
+           margin-left: 10px;
+           border: 1px solid #ffff66;
+           height: 200px;
+           width: 300px;
+         }
+         .image2
+          {
+            display: inline-block;
+            border: 1px solid #ffff66;
+            margin-left: 10px;
+            height: 200px;
+            width: 300px;
+          }
+          .image3
+           {
+             display: inline-block;
+             margin-left: 10px;
+             border: 1px solid #ffff66;
+             height: 200px;
+             width: 300px;
+           }
+           .image4
+            {
+              display: inline-block;
+              margin-left: 10px;
+              border: 1px solid #ffff66;
+              margin-right: 25px;
+              height: 200px;
+              width: 300px;
+            }
+      
       .contactlink
       {
         display: block;
@@ -248,7 +322,5 @@
         padding-bottom: 20px;
       }
 
-      .container{
-        display: block;
-        }
+
   }
